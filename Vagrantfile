@@ -46,6 +46,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.roles_path              = "chef/roles"
     chef.environments_path       = "chef/environments"
     chef.data_bags_path          = "chef/data_bags"
+    chef.nodes_path              = "chef/nodes"
 
     # Add a recipe
     chef.add_recipe "provision"
